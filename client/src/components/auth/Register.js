@@ -79,7 +79,7 @@ class Register extends Component {
                     invalid: errors.name
                   })}
                 />
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name">Name<label>
                 <span className="red-text">{errors.name}</span>
               </div>
               <div className="input-field col s12">
@@ -123,7 +123,7 @@ class Register extends Component {
                 />
                 <label htmlFor="password2">Confirm Password</label>
                 <span className="red-text">{errors.password2}</span>
-              </div>
+              <div>
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>
                 <button
                   style={{
