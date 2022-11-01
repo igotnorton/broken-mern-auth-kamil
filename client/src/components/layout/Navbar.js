@@ -10,12 +10,12 @@ class Navbar extends Component {
             <Link
               to="/"
               style={{
-                fontFamily: "monospace"
+                fontFamily: "sans-serif"
               }}
               className="col s5 brand-logo center black-text"
             >
-              <i className="material-icons">local_fire_department</i>
-              Portal
+              <i className="material-icons"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="steam-ico" height="32px"/></i>
+              Steam Halloween Sale 2022
             </Link>
           </div>
         </nav>

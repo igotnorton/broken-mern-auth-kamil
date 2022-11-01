@@ -19,7 +19,7 @@ class Dashboard extends Component {
             <h4>
               <b>Welcome,</b> {user.name.split(" ")[0]}
               <p className="flow-text grey-text text-darken-1">
-                You have been successfully logged in to the{" "}
+                You have been successfully logged in to the{" "}</p>
                 <span style={{ fontFamily: "monospace" }}>Portal</span>
             </h4>
             <button
@@ -32,6 +32,7 @@ class Dashboard extends Component {
               className="btn btn-large waves-effect waves-light hoverable blue accent-3"
             >
               Logout
+              </button>
           </div>
         </div>
       </div>
@@ -46,7 +47,7 @@ Dashboard.propTypes = {
 
 const mapStateToProps = state => ({
   auth: state.auth
-};
+})
 
 export default connect(
   mapStateToProps,
