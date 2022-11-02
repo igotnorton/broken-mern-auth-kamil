@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
+import { Link } from "react-router-dom";
 
 class Dashboard extends Component {
   onLogoutClick = e => {
@@ -18,10 +19,22 @@ class Dashboard extends Component {
           <div className="landing-copy col s12 center-align">
             <h4>
               <b>Welcome,</b> {user.name.split(" ")[0]}
-              <p className="flow-text grey-text text-darken-1">
+              <p className="black-text">
                 You have been successfully logged in to the{" "}</p>
-                <span style={{ fontFamily: "monospace" }}>Portal</span>
+                <span style={{ fontFamily: "monospace" }}>Steam</span>
             </h4>
+            <Link
+                to="/Tron"
+                style={{
+                  width: "140px",
+                  borderRadius: "3px",
+                  letterSpacing: "1.5px"
+                }}
+                className="btn btn-large waves-effect waves-light hoverable white2 black-text"
+              >
+                TRON
+              </Link>
+
             <button
               style={{
                 borderRadius: "3px",

@@ -10,7 +10,7 @@ class Landing extends Component {
             <h4>
               <b>Welcome</b> home
             </h4>
-            <p className="flow-text grey-text text-darken-1">
+            <p className="black-text">
               Login or register to continue
             </p>
             <br />
@@ -35,7 +35,7 @@ class Landing extends Component {
                   borderRadius: "3px",
                   letterSpacing: "1.5px"
                 }}
-                className="btn btn-large btn-flat waves-effect white black-text"
+                className="btn btn-large waves-effect waves-light hoverable white2 black-text"
               >
                 Log In
               </Link>
