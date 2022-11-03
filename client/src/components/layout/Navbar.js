@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <div className="navbar-fixed">
         <nav className="z-depth-0">
-          <div className="nav-wrapper white">
+          <div className="nav-wrapper">
             <Link
               to="/"
               style={{
@@ -17,6 +17,7 @@ class Navbar extends Component {
               <i className="material-icons"><img src="./images/Steam_icon_logo.svg" alt="steam-ico" height="32px"/></i>
               Steam Halloween Sale 2022
             </Link>
+
           </div>
         </nav>
       </div>

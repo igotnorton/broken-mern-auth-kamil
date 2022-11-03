@@ -24,11 +24,13 @@ class Dashboard extends Component {
                 <span style={{ fontFamily: "monospace" }}>Steam</span>
             </h4>
             <Link
-                to="/Tron"
+                to="/tron"
                 style={{
                   width: "140px",
                   borderRadius: "3px",
-                  letterSpacing: "1.5px"
+                  letterSpacing: "1.5px",
+                  marginBottom: "1rem",
+                  marginLeft: "1rem"
                 }}
                 className="btn btn-large waves-effect waves-light hoverable white2 black-text"
               >
@@ -39,7 +41,7 @@ class Dashboard extends Component {
               style={{
                 borderRadius: "3px",
                 letterSpacing: "1.5px",
-                marginTop: "1rem"
+                marginBottom: "1rem"
               }}
               onClick={this.onLogoutClick}
               className="btn btn-large waves-effect waves-light hoverable blue accent-3"

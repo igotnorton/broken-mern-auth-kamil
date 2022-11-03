@@ -2463,6 +2463,7 @@ a {
 
 .z-depth-0 {
   width: 100%;
+  background: #ffffff;
   -webkit-box-shadow: none !important;
   box-shadow: none !important
 }
@@ -4515,7 +4516,7 @@ nav .input-field label.active i {
 .navbar-fixed {
   position: sticky;
   height: 56px;
-  z-index: 997;
+  z-index: 2;
   width: 100%;
 }
 
