@@ -2151,9 +2151,10 @@ html {
   -webkit-text-size-adjust: 100%;
 
 
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   min-height: 100%;
   min-width: 100%;
@@ -2162,12 +2163,12 @@ display: flex;
 
 body {
   display: flex;
-  margin: 0;
-
-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 0;
 
   width: 100%;
-  flex: 1 0 ;
 }
 
 
@@ -2461,6 +2462,7 @@ a {
 }
 
 .z-depth-0 {
+  width: 100%;
   -webkit-box-shadow: none !important;
   box-shadow: none !important
 }
@@ -3343,9 +3345,13 @@ table span.badge {
 }
 
 .row {
+  display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  width: 100%;
+
 }
 
 .row:after {
@@ -4507,13 +4513,15 @@ nav .input-field label.active i {
 }
 
 .navbar-fixed {
-  position: relative;
+  position: sticky;
   height: 56px;
-  z-index: 997
+  z-index: 997;
+  width: 100%;
 }
 
 .navbar-fixed nav {
-  position: fixed
+  position: sticky;
+  width: 100%;
 }
 
 @media only screen and (min-width: 601px) {
@@ -6744,7 +6752,7 @@ textarea.materialize-textarea+label:after,
 .nav-wrapper .input-field input[type=search] {
   height: inherit;
   padding-left: 4rem;
-  width: calc(100% - 4rem);
+  width: 100%;
   border: 0;
   -webkit-box-shadow: none;
   box-shadow: none
@@ -9194,36 +9202,30 @@ input[type=range]::-ms-thumb {
   justify-content: center;
   align-items: center;
 
-  /* min-width: 600px;
-  min-height: 600px; */
-
-
-
   width: 100%;
   height: 100%;
+
   border: none;
 }
 
 #root {
   display: flex;
+  flex: 1 0 ;
+
   margin: 0;
   padding: 0;
-
-/* height: 100vh;
-  width: 100vw; */
-
   width: 100%;
-  flex: 1 0 ;
 }
 
 .App {
   display: flex;
-margin: 0;
-padding: 0;
-
-/* height: 100vh;
-  width: 100vw; */
-
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  
   flex: 1 0 ;
+
+  margin: 0;
+  padding: 0;
   width: 100%;
 }

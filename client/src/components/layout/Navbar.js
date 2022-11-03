@@ -14,7 +14,7 @@ class Navbar extends Component {
               }}
               className="row s5 brand-logo center black-text"
             >
-              <i className="material-icons"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="steam-ico" height="32px"/></i>
+              <i className="material-icons"><img src="./images/Steam_icon_logo.svg" alt="steam-ico" height="32px"/></i>
               Steam Halloween Sale 2022
             </Link>
           </div>
