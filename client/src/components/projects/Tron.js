@@ -5,7 +5,9 @@ import React, { Component } from "react";
 class Tron extends Component {
   render() {
     return (
-        <iframe id="magicFrame" src="./tron/index.html"></iframe>
+        <iframe id="magicFrame" src="./tron/index.html" title="Tron"></iframe>
+        // <iframe id="magicFrame" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" title="Tron" ></iframe>
+        // <iframe id="magicFrame" src="../src/components/projects/tron/index.html" title="Tron" ></iframe>
     );
   }
 }
