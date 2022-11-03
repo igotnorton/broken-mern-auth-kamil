@@ -9229,3 +9229,8 @@ input[type=range]::-ms-thumb {
   padding: 0;
   width: 100%;
 }
+
+example {
+  display: flex;
+  justify-content: center;
+}
