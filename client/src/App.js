@@ -15,6 +15,9 @@ import Login from "./components/auth/Login";
 import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/dashboard/Dashboard";
 import Tron from "./components/projects/Tron";
+import Portfolio from "./components/projects/Portfolio";
+import Webcam from "./components/projects/Webcam";
+import Aibot from "./components/projects/Aibot.js";
 import "./App.css";
 
 // Check for token to keep user logged in
@@ -51,6 +54,9 @@ class App extends Component {
             <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
               <PrivateRoute exact path="/tron" component={Tron} />
+              <PrivateRoute exact path="/portfolio" component={Portfolio} />
+              <PrivateRoute exact path="/webcam" component={Webcam} />
+              <PrivateRoute exact path="/aibot" component={Aibot} />
             </Switch>
           </div>
         </Router>
