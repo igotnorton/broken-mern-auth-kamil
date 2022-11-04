@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 
 
-class Tron extends Component {
+class Aibot extends Component {
   render() {
     return (
       <body>
@@ -22,13 +22,12 @@ class Tron extends Component {
       BACK
     </Link>
 
-        <iframe id="magicFrame" src="./TRON/tronhtml.html" title="Tron"></iframe>
+        <iframe id="magicFrame" src="https://kamils-chatbot.herokuapp.com/" title="Aibot"></iframe>
         </body>
-        // <iframe id="magicFrame" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" title="Tron" ></iframe>
-        // <iframe id="magicFrame" src="~/client/src/components/projects/tron/index.html" title="Tron" ></iframe>
+        // <iframe id="magicFrame" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" title="Portfolio" ></iframe>
     );
   }
 }
 
 
-export default Tron;
+export default Aibot;

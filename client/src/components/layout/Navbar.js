@@ -12,7 +12,7 @@ class Navbar extends Component {
               style={{
                 fontFamily: "sans-serif"
               }}
-              className="row s5 brand-logo center black-text"
+              className="row s5 bar black-text"
             >
               <i className="material-icons"><img src="./images/Steam_icon_logo.svg" alt="steam-ico" height="32px"/></i>
               Steam Halloween Sale 2022

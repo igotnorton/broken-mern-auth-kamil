@@ -31,11 +31,50 @@ class Dashboard extends Component {
                   borderRadius: "3px",
                   letterSpacing: "1.5px",
                   marginBottom: "1rem",
-                  marginLeft: "1rem"
+                  marginRight: "1rem"
                 }}
                 className="btn btn-large waves-effect waves-light hoverable white2 black-text"
               >
                 TRON
+              </Link>
+            <Link
+                to="/portfolio"
+                style={{
+                  width: "140px",
+                  borderRadius: "3px",
+                  letterSpacing: "1.5px",
+                  marginBottom: "1rem",
+                  marginRight: "1rem"
+                }}
+                className="btn btn-large waves-effect waves-light hoverable white2 black-text"
+              >
+                PORTFOLIO
+              </Link>
+            <Link
+                to="/webcam"
+                style={{
+                  width: "140px",
+                  borderRadius: "3px",
+                  letterSpacing: "1.5px",
+                  marginBottom: "1rem",
+                  marginRight: "1rem"
+                }}
+                className="btn btn-large waves-effect waves-light hoverable white2 black-text"
+              >
+                WEBCAM
+              </Link>
+            <Link
+                to="/aibot"
+                style={{
+                  width: "140px",
+                  borderRadius: "3px",
+                  letterSpacing: "1.5px",
+                  marginBottom: "1rem",
+                  marginRight: "1rem"
+                }}
+                className="btn btn-large waves-effect waves-light hoverable white2 black-text"
+              >
+                AIBOT
               </Link>
 
             <button

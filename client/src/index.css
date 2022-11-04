@@ -1,9 +1,4 @@
 html {
-  line-height: 1.15;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,24 +6,19 @@ html {
 
   min-height: 100%;
   min-width: 100%;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   background: url("./images/gaben.jpg") repeat;
-  /* background-size: 50%; */
   animation: scroll-anim 5s linear infinite;
-
-
 }
 
 @keyframes scroll-anim {
   100% {
     background-position: -500px -500px;
-  }
-  }
+}
+}
 
 body {
   display: flex;
@@ -58,9 +48,10 @@ body {
 
 .z-depth-0 {
   width: 100%;
-  background: #ffffff;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important
+}
+
+.nav-wrapper {
+  line-height: 56px;
 }
 
 .center,
@@ -68,55 +59,31 @@ body {
   text-align: center;
   background: #fff;
   padding: 16px;
-  filter: drop-shadow(0 0 4px #fff);
+  filter: drop-shadow(0 0 4px #000);
   border-radius: 8px;
-}
-
-.container {
-  padding-top:64px;
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 90%
-}
-
-.col .row {
-  margin-top: 64px;
-  margin-left: -.75rem;
-  margin-right: -.75rem
 }
 
 .row {
   display: flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
   width: 100%;
 }
 
 .row .col.s6 {
   width: 50%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
   margin-bottom: 16px;
 }
 
-.row .col.s12 {
-  margin-left: auto;
-  width: 100%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
+.z-depth-0 {
+  height: 56px;
 }
 
 .row .col.offset-s2 {
-  margin-left: 16.6666666667%;
   background: #fff;
   padding: 16px;
   filter: drop-shadow(0 0 2px #000);
   border-radius: 8px;
-}  
+}
 
 #magicFrame {
   display: flex;
@@ -127,6 +94,9 @@ body {
   height: 100%;
 
   border: none;
+  background-image: url("https://media.tenor.com/On7kvXhzml4AAAAi/loading-gif");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #root {
@@ -150,3 +120,13 @@ body {
   padding: 0;
   width: 100%;
 }
+
+.bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-left:32px;
+  font-weight: bold
+}
+
