@@ -21,7 +21,8 @@ class Dashboard extends Component {
               <b>Welcome,</b> {user.name.split(" ")[0]}
               <p className="black-text">
                 You have been successfully logged in to the{" "}</p>
-                <span style={{ fontFamily: "monospace" }}>Steam</span>
+                <span style={{ fontWeight: "bold" }}>Steam</span>
+
             </h4>
             <Link
                 to="/tron"

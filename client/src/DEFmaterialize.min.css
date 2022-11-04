@@ -2124,12 +2124,7 @@
 }
 
 .white {
-  background-color: #fff !important;
-  filter: drop-shadow(0 0 2px #000)
-}
-
-.white2 {
-  background-color: #fff !important;
+  background-color: #fff !important
 }
 
 .white-text {
@@ -2148,30 +2143,12 @@
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  min-height: 100%;
-  min-width: 100%;
-  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex: 1 0;
-
-  width: 100%;
+  margin: 0
 }
-
-
 
 article,
 aside,
@@ -2402,19 +2379,8 @@ template {
 
 html {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background: url("./gaben.jpg") repeat;
-  /* background-size: 50%; */
-  animation: scroll-anim 5s linear infinite;
-
-
+  box-sizing: border-box
 }
-
-@keyframes scroll-anim {
-  100% {
-    background-position: -500px -500px;
-  }
-  }
 
 *,
 *:before,
@@ -2454,7 +2420,7 @@ a {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: center
 }
 
 .clearfix {
@@ -2462,8 +2428,6 @@ a {
 }
 
 .z-depth-0 {
-  width: 100%;
-  background: #ffffff;
   -webkit-box-shadow: none !important;
   box-shadow: none !important
 }
@@ -3194,11 +3158,7 @@ th {
 
 .center,
 .center-align {
-  text-align: center;
-  background: #fff;
-  padding: 16px;
-  filter: drop-shadow(0 0 4px #fff);
-  border-radius: 8px;
+  text-align: center
 }
 
 .left {
@@ -3304,7 +3264,6 @@ table span.badge {
 }
 
 .container {
-  padding-top:64px;
   margin: 0 auto;
   max-width: 1280px;
   width: 90%
@@ -3323,7 +3282,6 @@ table span.badge {
 }
 
 .col .row {
-  margin-top: 64px;
   margin-left: -.75rem;
   margin-right: -.75rem
 }
@@ -3346,13 +3304,9 @@ table span.badge {
 }
 
 .row {
-  display: flex;
-  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
-  width: 100%;
-
+  margin-bottom: 20px
 }
 
 .row:after {
@@ -3399,8 +3353,7 @@ table span.badge {
   width: 33.3333333333%;
   margin-left: auto;
   left: auto;
-  right: auto;
-
+  right: auto
 }
 
 .row .col.s5 {
@@ -3414,8 +3367,7 @@ table span.badge {
   width: 50%;
   margin-left: auto;
   left: auto;
-  right: auto;
-  margin-bottom: 16px;
+  right: auto
 }
 
 .row .col.s7 {
@@ -3454,11 +3406,10 @@ table span.badge {
 }
 
 .row .col.s12 {
-  margin-left: auto;
   width: 100%;
   margin-left: auto;
   left: auto;
-  right: auto;
+  right: auto
 }
 
 .row .col.offset-s1 {
@@ -3474,11 +3425,7 @@ table span.badge {
 }
 
 .row .col.offset-s2 {
-  margin-left: 16.6666666667%;
-  background: #fff;
-  padding: 16px;
-  filter: drop-shadow(0 0 2px #000);
-  border-radius: 8px;
+  margin-left: 16.6666666667%
 }
 
 .row .col.pull-s2 {
@@ -3526,7 +3473,7 @@ table span.badge {
 }
 
 .row .col.offset-s6 {
-  margin-left: 50%;
+  margin-left: 50%
 }
 
 .row .col.pull-s6 {
@@ -3598,8 +3545,7 @@ table span.badge {
 }
 
 .row .col.offset-s12 {
-  margin-left: 100%;
-
+  margin-left: 100%
 }
 
 .row .col.pull-s12 {
@@ -4514,15 +4460,13 @@ nav .input-field label.active i {
 }
 
 .navbar-fixed {
-  position: sticky;
+  position: relative;
   height: 56px;
-  z-index: 2;
-  width: 100%;
+  z-index: 997
 }
 
 .navbar-fixed nav {
-  position: sticky;
-  width: 100%;
+  position: fixed
 }
 
 @media only screen and (min-width: 601px) {
@@ -4551,9 +4495,7 @@ html {
   line-height: 1.5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: normal;
-  color: rgba(0, 0, 0, 0.87);
-
-
+  color: rgba(0, 0, 0, 0.87)
 }
 
 @media only screen and (min-width: 0) {
@@ -6753,7 +6695,7 @@ textarea.materialize-textarea+label:after,
 .nav-wrapper .input-field input[type=search] {
   height: inherit;
   padding-left: 4rem;
-  width: 100%;
+  width: calc(100% - 4rem);
   border: 0;
   -webkit-box-shadow: none;
   box-shadow: none
@@ -9188,50 +9130,4 @@ input[type=range]::-ms-thumb {
     text-align: center;
     margin-top: 1.2rem
   }
-}
-
-#stretchFrame {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  flex: 1 0;
-}
-
-#magicFrame {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
-  height: 100%;
-
-  border: none;
-}
-
-#root {
-  display: flex;
-  flex: 1 0 ;
-
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.App {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  
-  flex: 1 0 ;
-
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-example {
-  display: flex;
-  justify-content: center;
 }
